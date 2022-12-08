@@ -3,8 +3,8 @@ class Person:
         self.name = name
         self.age = age
 
-def __str__(self):
-    return self.name + "("+ str(self.age)+")"
+    def __str__(self):
+        return self.name + "("+ str(self.age)+")"
 
 p1 = Person("John",36)
 
