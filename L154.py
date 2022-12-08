@@ -3,8 +3,8 @@ class Fabric:
         self.countryOfOrigin= countryOfOrigin
         self.color = color
 
-def __str__(self):
-    return self.countryOfOrigin + "("+ str(self.color)+")"
+    def __str__(self):
+        return self.countryOfOrigin + "("+ str(self.color)+")"
 
 f1 = Fabric("Australia","Red")
 
